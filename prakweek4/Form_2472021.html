@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url(/prakweek4/img/Background.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-family: Arial
+        }
+        div.form{
+            background-color: white;
+            margin: auto;
+            width: 25%;
+            font-family: Arial;
+            margin-top: 9%;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        label{
+            font-size: larger;
+        }
+        input{
+            width: 370px;
+            height: 30px;
+            border: 1px solid lightgrey;
+        }
+        input:focus{
+            outline-color: #007bff;
+
+        }
+        textarea{
+            width: 370px;
+            border: 1px solid lightgrey;
+        }
+        textarea:focus{
+            outline-color: #007bff;
+        }
+        select{
+            width: 360px;
+            height: 30px;
+            background-color: lightgrey;
+        }
+        input.submit{
+            background-color: #007bff;
+            height: 40px;
+            color: white;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1 align="center">Form Kontak</h1>
+        <label for=""><b>Nama</b></label><br>
+        <input type="text" size="40"><br><br>
+        <label for=""><b>Email</b></label><br>
+        <input type="email"><br><br>
+        <label for=""><b>Pesan</b></label><br>
+        <textarea rows="7" cols="40"></textarea><br><br>
+        <label for=""><b>Course :</b></label><br>
+        <select name="Jurusan">
+            <option value="pilihan1">Teknik Informatika</option>
+        </select>
+        <br><br>
+        <input class="submit" type="submit" value="Kirim"><br>
+    </div>
+    
+</body>
+</html>
